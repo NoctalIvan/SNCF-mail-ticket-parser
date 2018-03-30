@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "help": "node main.js",
+    "help": "node main.js --help",
     "try": "node main.js -i \"./test/mocks/test.html\" -o \"./testOutput.json\""
   },
   "repository": {
