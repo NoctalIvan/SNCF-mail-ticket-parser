@@ -1,0 +1,32 @@
+{
+  "name": "sncf-mail-ticket-parser",
+  "version": "1.0.0",
+  "description": "a parser for SNCF mails",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "help": "node main.js",
+    "try": "node main.js -i \"./test/mocks/test.html\" -o \"./testOutput.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoctalIvan/SNCF-mail-ticket-parser.git"
+  },
+  "author": "ivan.sedletzki@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoctalIvan/SNCF-mail-ticket-parser/issues"
+  },
+  "homepage": "https://github.com/NoctalIvan/SNCF-mail-ticket-parser#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.0.5"
+  }
+}
