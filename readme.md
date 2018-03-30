@@ -22,4 +22,4 @@ node main.js --input [html file path] --output [json file path]
 # Help & Testing
 - Tests can be run with mocha using `npm test`
 - `main.js`' doc can be obtained with `npm run help`
-A html mock is available in `test/mocks/test.html`, use `npm run try` to run the script with it
+- A html mock is available in `test/mocks/test.html`, use `npm run try` to run the script with it
