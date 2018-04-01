@@ -1,6 +1,6 @@
 ## SNCF-mail-ticket-parser
 
-This lib allow the parsing of a SNCF mail into an exploitable data JSON output
+This lib allows the parsing of a SNCF mail into an exploitable data JSON output
 
 # Use
 
